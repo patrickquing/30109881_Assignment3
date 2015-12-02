@@ -1,0 +1,32 @@
+
+<html>
+<head>
+<style>
+ul#nav {margin: 0 0 0 200px;}
+ul.drop a { display:block; color: #666; font-family: Calibri; font-size: 1.75em; text-decoration: none;}
+ul.drop, ul.drop li, ul.drop ul { list-style: none; margin: 0; padding: 0; border: 0px solid #fff; background: #000; color: #fff;}
+ul.drop { position: relative; z-index: 597; float: left; }
+ul.drop li { float: left; line-height: 1.5em; vertical-align: middle; zoom: 1; padding: 5px 10px; }
+ul.drop li.hover, ul.drop li:hover { background:url('images/hover.png') ; color:#fff;position: relative; z-index: 599; cursor: default;}
+ul.drop ul { visibility: hidden; position: absolute; top: 100%; left: 0; z-index: 598; width: 195px; background: #000; border: 1px solid #666; }
+ul.drop ul li { float: none; }
+ul.drop ul ul { top: -2px; left: 100%; }
+ul.drop li:hover > ul { visibility: visible }
+</style>
+
+
+</head>
+<body style="background-color:#000">
+<ul id="nav" class="drop">
+  
+		<li><a href="homepage.html"><span>Home</span></a></li>
+		<li><a href="#"><span>About Me</span></a>
+		<ul><li>Teenage Years</li></ul>
+		
+		</li>
+		<li><a href="login.html"><span>Gallery</span></a></li>
+		<li><a href="faq.html"><span>FAQ</span></a></li>
+		<li><a href="feedback.html"><span>Feedback</span></a></li>
+    </ul>
+</html>
+

@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#000;
+	color:#fff;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 75%;
+	
+
+}
+
+div{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+h1{
+	font-family:Verdana;
+	color:#fff;
+	font-weight:bolder;
+	font-stretch:ultra-expanded;
+
+	
+}
+
+
+
+#mainLink {
+	clear: both;
+	width: 100%;
+	height:35px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#mainLink ul{
+    margin: 0 auto;
+    padding: 0;
+}
+
+#mainLink ul li{
+    text-align: left;
+    float: left;
+    list-style: none;
+    padding: 3px 10px 3px 10px;
+	margin: 5px;
+}
+
+#mainLink ul li a {
+	color: #666;
+	display: block;
+	text-decoration: none;
+	font-size: 1.75em;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 100%;
+	line-height: normal;
+	font-family: "Calibri";
+	margin-bottom: 5px;
+}
+
+
+#mainLink li a:hover {
+  background: url(../images/hover.png) left;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+ul#nav {margin: 0 0 0 200px;}
+ul.drop a { display:block; color: #666; font-family: Calibri; font-size: 1.75em; text-decoration: none;}
+ul.drop, ul.drop li, ul.drop ul { list-style: none; margin: 0; padding: 0; border: 0px solid #fff; background: #000; color: #fff;}
+ul.drop { position: relative; z-index: 597; float: left; }
+ul.drop li { float: left; line-height: 1.5em; vertical-align: middle; zoom: 1; padding: 5px 10px; }
+ul.drop li.hover, ul.drop li:hover { background:url('images/hover.png') ; color:#fff;position: relative; z-index: 599; cursor: default;}
+ul.drop ul { visibility: hidden; position: absolute; top: 100%; left: 0; z-index: 598; width: 195px; background: #000; border: 1px solid #666; }
+ul.drop ul li { float: none; }
+ul.drop ul ul { top: -2px; left: 100%; }
+ul.drop li:hover > ul { visibility: visible }
+
+
+#secondLink {
+	float:left;
+	background-color:#666;
+	width:200px;
+	padding:10px;
+}
+
+#secondLink ul li a{
+	color:#fff;
+	font-family:Arial, Helvetica, Tahoma;
+	font-size:1.5em;
+}
+
+#secondLink ul ul li {
+	font-size:.75em;
+}
+
+
+#divMainContent{
+	float:left;
+
+}
+#divTitleBox{
+	background-color:#666;
+	
+	
+	padding:5px;
+	margin:0px;
+	
+	font-family:Verdana, Geneva, sans-serif;
+
+}
+
+#divmainText{
+	margin:0px;
+	padding:10px;
+	color:#000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+	background-color:#fff;
+}
+#divFooter{
+	
+	clear:both;
+	padding:10px;
+	color:#fff;
+	text-align:center;
+	}
+	
+	
+
+
+#divFooter a{
+	padding:20px;
+	color:#fff;
+	text-decoration:none;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, Helvetica, Arial, sans-serif;
+
+	
+}
+
+
+#content-1-1{
+	float:left;
+	width:250px;
+	
+	margin:0px 5px;
+	padding:5px 0;
+	
+
+}
+
+#content-1-2{
+	float:left;
+	width:250px;
+	margin:0px 5px;
+	padding:5px 0;
+	height:200px;
+	
+}
+
+#content-1-3{
+	float:left;
+	width:250px;
+	margin:0px 5px;
+	padding:5px 0;
+	height:200px;
+
+}
+
+#content-2-1{
+	float:left;
+	width:510px;
+	height:200px;
+	margin:0px 5px;
+	padding:5px 0;
+
+	
+}
+
+#content-2-2{
+	float:left;
+	margin:0px 5px;
+	padding:5px 0;
+}
+
+
+#contentFAQ-1-2{
+	float:left;
+	width:500px;
+	margin:0px 5px;
+	padding:5px 0;
+	height:auto;
+
+	
+}
+
+
+
+#imgThumb{
+	width:100px;
+	height:80px;
+
+}
+
+#ref{
+	font-size:9px;
+	font-style:oblique;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Original:  Eddie Traversa (psych3@primus.com.au) -->
+<!-- Web Site:  http://dhtmlnirvana.com/ -->
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://www.javascriptsource.com -->
+
+<!-- Begin
+var nn4 = (document.layers);
+var nn6 = (document.getElementById && !document.all);
+var ie4 = (document.all && !document.getElementById);
+var ie5 = (document.all && document.getElementById);
+function loadPage(id,nestref,url) {
+if (nn4) {
+var lyr = (nestref)? eval('document.'+nestref+'.document.'+id) : document.layers[id]
+lyr.load(url,lyr.clip.width)
+}
+else if(ie4) parent.contentFRM.location = url;
+else if(ie5 || nn6) document.getElementById('contentFRM').src = url;
+}
+function showPage(id) {
+if (ie4) {
+document.all[id].innerHTML = parent.contentFRM.document.body.innerHTML;
+}
+else if(nn6 || ie5) { 
+document.getElementById(id).innerHTML = window.frames['contentFRM'].document.getElementById('theBody').innerHTML;
+   }
+}
+//  End -->
+</script>
+
+</HEAD>
+
+
+<body onload="parent.showPage('divMainContent')">
+
+<div id="divBanner">
+<img src="images/banner.jpg" />
+</div>
+
+<div id="mainLink">
+	<ul>
+		<li><a href="#"><span>Home</span></a></li>
+		<li><a href="#"><span>About Me</span></a></li>
+		<li><a href="#"><span>Gallery</span></a></li>
+		<li><a href="#"><span>FAQ</span></a></li>
+		<li><a href="last"><span>Feedback</span></a></li>
+    </ul>
+</div>
+
+<div id="divContent">
+	<div id="secondLink">
+	<ul>
+		<li><a href="homepage.html" target="iframe"><span>Home</span></a></li>
+		<li><a href="genealogy.html" target="iframe"><span>About Me</span></a>
+        	<ul id="ulAboutMe">
+            <li><a href="#"><span>Early Years</span></a></li>
+            <li><a href="#"><span>Teenage Years</span></a></li>
+            <li><a href="#"><span>Education</span></a></li>
+            <li><a href="#"><span>Career</span></a></li>
+            <li><a href="#"><span>Interests</span></a></li>
+            	<ul id = "ulInterest">
+		            <li><a href="#"><span>Hobby</span></a></li>
+		            <li><a href="#"><span>Sports and Health</span></a></li>                    
+		            <li><a href="#"><span>Music</span></a></li>              
+                </ul>
+            <li><a href="genealogy.html" target="iframe"><span>Genealogy</span></a></li>            
+            
+            
+            </ul>
+        </li>
+		<li><a href="#"><span>Gallery</span></a></li>
+		<li><a href="#"><span>FAQ</span></a></li>
+		<li><a href="last"><span>Feedback</span></a></li>
+    </ul>
+    
+	</div>
+    
+    
+    
+    <div id = "divMainContent" src="homepage.html"></div>
+<iframe name="contentFRM" id="contentFRM" width="0" height="0" frameborder="0">
+</iframe>
+
+
+
+
+
+<div id="divFooter">
+<hr />
+<a href="javascript:loadPage('divMainContent',null,'sitemap.html')" target="divMainContent">SITEMAP</a>
+</div>
+</body>
+</html>
